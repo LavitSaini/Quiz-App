@@ -74,13 +74,13 @@ let questionsArray = [
   },
   {
     title: "Which HTML tag is used to define an unordered list?",
-    correctAnswer: 3,
+    correctAnswer: 0,
     options: ["<ul>", "<li>", "<ol>", "<dl>"],
   },
   // Add more questions...
   {
     title: "What is the correct syntax for referring to an external script called 'script.js'?",
-    correctAnswer: 1,
+    correctAnswer: 0,
     options: [
       "<script src='script.js'>",
       "<script href='script.js'>",
@@ -190,7 +190,7 @@ let questionsArray = [
   },
   {
     title: "What will the following code return: Boolean(10 > 9)",
-    correctAnswer: 2,
+    correctAnswer: 0,
     options: [
       "true",
       "false",
@@ -230,7 +230,7 @@ let questionsArray = [
   },
   {
     title: "What is the correct JavaScript syntax for opening a new window called 'myWindow'?",
-    correctAnswer: 1,
+    correctAnswer: 0,
     options: [
       "window.open('url','myWindow')",
       "window.open('','myWindow')",
@@ -240,17 +240,17 @@ let questionsArray = [
   },
   {
     title: "Which HTML tag is used to define a table?",
-    correctAnswer: 0,
+    correctAnswer: 2,
     options: [
-      "<table>",
       "<tb>",
       "<tr>",
+      "<table>",
       "<th>",
     ],
   },
   {
     title: "How can you make a numbered list?",
-    correctAnswer: 1,
+    correctAnswer: 0,
     options: [
       "<ol>",
       "<dl>",
@@ -260,10 +260,10 @@ let questionsArray = [
   },
   {
     title: "What is the correct HTML for making a checkbox?",
-    correctAnswer: 0,
+    correctAnswer: 1,
     options: [
-      "<input type='checkbox'>",
       "<checkbox>",
+      "<input type='checkbox'>",
       "<check>",
       "<input type='check'>",
     ],

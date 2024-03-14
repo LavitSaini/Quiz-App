@@ -265,6 +265,7 @@ table {
   gap: 0.75rem;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .options .option {
@@ -277,9 +278,20 @@ table {
   align-items: center;
 }
 
+.option .hiding-checkbox{
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  left: 1.05rem;
+  z-index: 0;
+} 
+
 .option input {
   accent-color: #007bff;
   cursor: pointer;
+  position: relative;
 }
 
 .option label {
@@ -298,10 +310,18 @@ table {
   border-color: #10a40b;
 }
 
+.correct input{
+  accent-color: #10a40b;
+}
+
 /* Wrong Answer */
 .options .wrong{
   background-color: #ffdfdf;
   border-color: #c40202;
+}
+
+.wrong input{
+  accent-color: #c40202;
 }
 
 /* footer Section */
@@ -331,6 +351,7 @@ table {
   font-size: 2rem;
   font-weight: 500;
   color: #ffffff;
+  text-shadow: 2px 2px #292a2b;
 }
 
 .quiz-menu-box .menu-btn{
